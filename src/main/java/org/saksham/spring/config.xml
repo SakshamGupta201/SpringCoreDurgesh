@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
-        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
-
-<!-- bean definitions here -->
-<beans>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
     <bean class="org.saksham.spring.Student" name="student1">
         <!-- Setter Injection-->
         <property name="studentId" value="23423"/>
         <property name="studentName" value="Saksham Gupta"/>
         <property name="studentAddress" value="Kangra"/>
     </bean>
+
+
 </beans>
