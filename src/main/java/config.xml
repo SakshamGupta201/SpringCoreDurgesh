@@ -5,15 +5,9 @@
 <!-- bean definitions here -->
 <beans>
     <bean class="org.saksham.spring.Student" name="student1">
-        <!--        Setter Injection-->
-        <property name="studentId">
-            <value>22344</value>
-        </property>
-        <property name="studentName">
-            <value>Saksham</value>
-        </property>
-        <property name="studentAddress">
-            <value>Kangra</value>
-        </property>
+        <!-- Setter Injection-->
+        <property name="studentId" value="23423"/>
+        <property name="studentName" value="Saksham Gupta"/>
+        <property name="studentAddress" value="Kangra"/>
     </bean>
 </beans>
